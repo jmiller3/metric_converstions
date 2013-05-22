@@ -38,7 +38,13 @@ This module was built by <YOUR NAME HERE> and <YOUR NAME HERE>.
 ### Volumes ###
 ... notes and explanation goes here ...
 
-This module was built by <YOUR NAME HERE> and <YOUR NAME HERE>.
+This module was built by Jonathan Miller and Josh Gerbasi.
+
+Usage: Instantiate a convertible volume by calling `MetricConversions.volume(<quantity>, <unit>)`
+We currently have 3 methods available to the user
+* `convert(unit)` receives a string that corresponds to other units that are able to converted, this is destructive.
+* `to_s` prints the quantity and unit currently held by the Convertible object.
+*  `to_what?` lists all the units that the Convertible object is able to be converted to.
 
 
 ### Temperatures ###
